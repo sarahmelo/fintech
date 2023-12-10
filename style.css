@@ -1,0 +1,21 @@
+.main {
+    margin: 0 auto;
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.list {
+    :first-child {
+        border-radius: 10px 10px 0
+    }
+
+    :last-child {
+        border-radius: 0 0 10px 10px
+    }
+}
+
+header {
+    border-bottom: 1px solid rgba(184, 178, 228, 0.19);
+}
