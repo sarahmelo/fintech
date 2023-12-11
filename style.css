@@ -19,3 +19,9 @@
 header {
     border-bottom: 1px solid rgba(184, 178, 228, 0.19);
 }
+
+.container {
+    @media (max-width: 600) {
+        
+    }
+}
